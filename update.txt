@@ -1,0 +1,13 @@
+1) create images/ro folders into server.
+
+
+Database upload tasks:
+1) Remove title from "tbl_book_ads"
+2) Add "uploaded_file" column into "tbl_book_ads"
+
+
+2) upload table tbl_news_group
+3) create table tbl_news_group_details
+
+
+

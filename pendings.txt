@@ -1,0 +1,14 @@
+1 Add gst amount from table backend in all edits and update state_id in book_ads in edit also.
+2 on entry edit update gst amount also.
+3 add attachment on add ro.
+4 check bill is working fine with scheme and packages.
+
+
+Database upload tasks:
+upload table tbl_news_group
+create table tbl_news_group_details
+
+
+Gemini:
+1) Add sattled price into every ro.
+2) 

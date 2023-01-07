@@ -1,0 +1,81 @@
+.modal-content1{
+width: 1335px;
+left: -375px;
+top: -22px;
+border: 1px solid rgba(0,0,0,.2);
+border-radius: 6px;
+outline: 0;
+position: relative;
+background-color: #fff;}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 623px) {
+	
+.modal-content1 {
+    width: 275px;
+    left: 2px;
+    top: 7px;
+    outline: 0;
+    position: relative;
+   
+
+}	
+	
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+.modal-content1 {
+   width: 733px;
+    left: -67px;
+top: -22px;
+   
+
+}	
+	
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+	
+.modal-content1 {
+    width: 337px;
+    left: 2px;
+    top: 7px;
+    outline: 0;
+    position: relative;
+   
+
+}	
+	
+}
+
+@media (min-width: 637px) and (max-width: 640px) {
+	
+.modal-content1 {
+    width: 600px;
+    top: 7px;
+    left:2px;
+    outline: 0;
+    position: relative;
+   
+
+}	
+	
+}
+
+
+
+@media (min-width: 852px) and (max-width: 640px) {
+	
+.modal-content1 {
+    width: 795px;
+    top: -22px;
+    left: -95px;
+ 
+}	
+	
+}

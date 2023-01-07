@@ -1,0 +1,60 @@
+1) url: https://dukeinfosys.org/amsons_test/nis_api
+
+
+1. /* Generate a new user */
+sign_up()
+post parameters: email,passcode,mobile,client_name,device_type,address,city,state,pin_code,gst_no
+output:
+{
+    "error": false,
+    "message":"User Added Successfully."
+}
+
+
+
+2. /* User Login */
+login()
+post parameters:email,passcode
+output:
+
+
+
+3. /* Update user */
+user_edit()
+post parameters: email,mobile,client_name,address,city,state,pin_code,gst_no
+output:
+{
+    "error": false,
+    "message":"User updated successfully."
+}
+
+4. /* Change user password*/
+user_change_password()
+post parameters: email,old_passcode,new_passcode,confirm_passcode
+output:
+{
+    "error": false,
+    "message":"Password changed successfully."
+}
+
+
+
+
+5. /* Change user password*/
+publications_newspapers()
+output:
+{
+    "error": false,
+    "id": [
+        "1",
+        "2",
+        "3",
+       ...
+    ],
+    "name": [
+        "THE TRIBUNE",
+        "DAINIK TRIBUNE",
+        "PUNJABI TRIBUNE",
+        ...
+    ]
+}
